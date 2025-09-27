@@ -1,0 +1,33 @@
+name: vg_net
+description: "Door app for Raspberry Pi"
+publish_to: 'none'
+version: 0.1.2
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  gauges: ^1.0.0
+  http: ^1.5.0
+  intl: ^0.20.2
+  mobile_scanner: ^7.0.1
+  supabase_flutter: ^2.9.1
+  syncfusion_flutter_gauges: ^30.2.7
+  fl_chart: ^1.0.0
+  mqtt_client: 9.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
